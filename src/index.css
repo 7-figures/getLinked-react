@@ -1,0 +1,1362 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-blend-mode: hard-light;
+    background: #150E28;
+    width: 100%;
+}
+.linked{
+    color: #D434FE;
+}
+.logo {
+    color: #FFF;
+    font-family: 'Clash Display';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 70px;
+
+}
+.navbar-nav>li {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item a {
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+    padding-top: 13px;
+
+}
+
+.navy {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    margin-bottom: 5px;
+
+
+}
+.one{
+    margin-bottom: auto;
+}
+.hack{
+    color: #D434FE; 
+    padding-left: 7px;
+}
+
+.reg {
+    width: 142px;
+    height: 43px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    text-align: center;
+    padding-top: 10px;
+    color: #ffff;
+    margin-bottom: 4px;
+}
+
+.star-text {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 700px;
+    text-align: end;
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.star-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.star img {
+    left: 5px;
+    top: 25px;
+    margin-top: 5px;
+    position: absolute;
+
+}
+
+
+.star2 {
+    width: 26px;
+    height: 32px;
+    position: absolute;
+    right: 510px;
+    top: 3px;
+}
+
+.vector {
+    width: 100%;
+}
+
+.vector svg {
+    height: 11px;
+    margin-top: -20px;
+    position: absolute;
+    right: 30px;
+
+
+}
+.main{
+    justify-content: space-between;
+    gap: 122px;
+}
+
+.lens img {
+
+    background: no-repeat;
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: -17px;
+    left: 135px;
+
+}
+
+.lamp img {
+    position: absolute;
+    top: -6px;
+    left: 310px;
+
+
+
+}
+
+.tech1{
+width: 100%;
+
+}
+.fire{
+    position: absolute;
+    top: 108px;
+    right: -12px;
+}
+.tech {
+    color: #FFF;
+    font-family: 'Clash Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    position: relative;
+  
+}
+
+.tech img {
+    width: 56px;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.part {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 166%;
+    margin-top: -12px;
+}
+
+.timer {
+    color: #FFF;
+    font-family: 'Unica One';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+}
+.pic{
+    position: relative;
+    background: no-repeat;
+    background-blend-mode: hard-light;
+}
+
+
+.bg{
+    position: absolute;
+
+}
+
+.letter {
+    color: #ffff;
+    font-family: 'Montserrat';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.timer {
+    color: #FFF;
+    font-family: 'Unica One';
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 133%;
+    gap: 18px;
+    padding-top: 40px;
+}
+
+.star3 {
+    width: 26px;
+    height: 32px;
+    right: 730px;
+    bottom: 120px;
+}
+
+.intro{
+    color: #D434FE;
+}
+.introduction {
+    height: 557px;
+}
+
+.introduction img {
+    width: 400px;
+
+
+}
+
+.introduction-text {
+    margin-top: 120px;
+    padding-left: 70px;
+
+
+}
+
+.introduction-text h6 {
+    color: #FFF;
+    font-family: 'Clash Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+
+
+}
+
+.introduction-text p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.arrow img {
+    width: 49.43px;
+    height: 57.974px;
+    left: 380px;
+    bottom: 89px;
+}
+
+.star4 img {
+    width: 26px;
+    height: 32px;
+    left: -13px;
+    top: 120px;
+
+}
+.star5 img {
+    width: 26px;
+    height: 32px;
+    right: 150px;
+    top: 108px;
+}
+.guide{
+color: #D434FE;
+}
+.introduction-text2 {
+    margin-top: 30px;
+    padding-left: 70px;
+
+}
+.introduction-text2 h6 {
+    color: #FFF;
+    font-family: 'Clash Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+
+
+}
+
+.introduction-text2 p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+.ball img{
+    width: 134px;
+height: 134px;
+margin-left: 160px;
+
+}
+.rules{
+    margin-left: 87px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+
+.quest{
+    height: 557px; 
+     margin-top:30px ;
+   
+
+}
+
+.quest img{
+    width: 382px;
+height: 382px;
+
+}
+
+.lens2 img {
+
+    background: no-repeat;
+    width: 400px;
+    height: 400px;
+    
+}
+.humans {
+    height: 500px;
+    margin-bottom: 30px;
+    
+}
+
+.humans img {
+    width: 700px;
+    height: 657px;
+    
+
+}
+
+.star8 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 320px;
+    margin-top: -79px;
+
+}
+
+.star9 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 820px;
+    margin-top: 520px;
+}
+
+.star10 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 570px;
+    top: 2180px;
+}
+
+.judge-text {
+margin: 0;
+    padding-left: 10px;
+
+}
+
+.judge-text h6 {
+    width: 267px;
+    height: 67px;
+    color: #FFF;
+    font-family: 'Clash Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0%;
+    margin-bottom: 0px;
+    margin-bottom: -28px;
+
+}
+
+.judge-text p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 173.5%;
+    
+
+}
+.more {
+    color: #FFF;
+text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+.frequently {
+    height: 684px;
+    width: 890px;
+    margin-top: 60px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+}
+.frequently h6 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 97%;
+    margin-top: 30px;
+}
+
+.frequently p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    margin-top: 20px;
+
+}
+
+.freq-text {
+    padding-top: 60px;
+
+}
+.accordion-item img{
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    padding-left: 28px;
+}
+.line {
+    width: 363px;
+    height: 1px;
+    background: #D434FE;
+}
+.star11 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: -510px;
+    bottom: 560px;
+
+}
+
+.star12 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 520px;
+    top: 730px;
+}
+
+.star13 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 560px;
+    bottom: -2150px;
+}
+
+.star14 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 590px;
+    bottom: -1945px;
+}
+
+.star15 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 110px;
+    bottom: -1740px;
+}
+
+.qmark1 {
+    width: 50px;
+    height: 31px;
+    color: #D434FE;
+    font-family: 'MADE TOMMY Outline';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px;
+    position: relative;
+    top: -760px;
+    left: 240px;
+
+}
+
+.qmark2 {
+    width: 114px;
+    height: 71px;
+    color: #A866FD;
+    font-family: 'MADE TOMMY Outline';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27.5px;
+    position: absolute;
+    bottom: -1810px;
+    left: 940px;
+}
+
+.qmark3 {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+   bottom : -1810px;
+    left: 620px;
+}
+.timeline {
+    margin-top: 80px;
+}
+
+.timeline h5 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.timeline p {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+}
+
+.time-text {
+    padding-top: 20px;
+    margin-right: -100px;
+
+}
+
+.time-text p {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.time-text h6 {
+    color: #D434FE;
+    font-family: ' Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.time-text2 {
+    padding-top: 20px;
+    margin-left: -170px;
+}
+
+.time-text2 h6 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.vert {
+    width: 4px;
+    height: 137px;
+    background: #D434FE;
+    margin-top: 30px;
+    margin-left: 150px;
+    align-content: center;
+}
+
+.vert-circle {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    width: 33.32px;
+    height: 33.32px;
+    border-radius: 26.5px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 100%);
+    margin-top: 10px;
+    margin-left: 136px;
+    align-content: center;
+
+
+}
+
+.vert-circle h4 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: norma
+}
+
+.star16 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: -510px;
+    bottom: 560px;
+
+}
+
+.star17 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 350px;
+    top: 45px;
+}
+
+.star18 img {
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    left: 170px;
+    top: 120px;
+}
+
+.item2 {
+    padding-left: 10px;
+}
+
+.item2 h6 {
+    padding-top: 200px;
+}
+
+.itemA {
+    padding-left: 10px;
+}
+
+.itemA p {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%;
+
+}
+.main-cup {
+    width: 348px;
+    height: 200px;
+}
+
+
+.prizes {
+    position: relative;
+}
+
+.prizes h6 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.prizes p {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170.9%;
+}
+
+.prizes img {
+    position: relative;
+    top: 70px;
+    left: -150px;
+}
+
+.prize1 {
+    width: 212px;
+    height: 296px;
+    border-radius: 8px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    position: relative;
+    top: 320px;
+    right: 40px;
+}
+
+.prize2 {
+    width: 200px;
+    height: 296px;
+    border-radius: 8px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    position: relative;
+    top: 320px;
+    right: 35px;
+}
+
+.prize-items {
+    position: relative;
+    gap: 10px;
+}
+
+.prize1 {
+    width: 200px;
+    height: 276px;
+    border-radius: 8px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    position: relative;
+    top: 320px;
+    padding-top: 120px;
+}
+
+.prize1-content h6 {
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+.prize1-content h5 {
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.prize1 h6 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+    margin-top: -40px;
+}
+
+.prize1 p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 216.4%;
+}
+
+.prize1 h5 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+}
+
+.prize2 {
+    width: 212px;
+    height: 296px;
+    border-radius: 8px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    position: relative;
+    top: 320px;
+    padding-top: 180px;
+}
+
+.prize2 h6 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+    margin-top: -40px;
+}
+
+.prize2 h5 {
+    color: #D434FE;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 216.4%;
+}
+
+.prize2 p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 216.4%;
+}
+
+.prize3 {
+    width: 212px;
+    height: 276px;
+    border-radius: 8px;
+    border: 1px solid #D434FE;
+    background: rgba(212, 52, 254, 0.12);
+    position: relative;
+    top: 320px;
+    padding-top: 120px;
+    padding-left: 20px;
+}
+
+.prize-image1 {
+    position: absolute;
+    top: 160px;
+    left: 170px;
+    width: 179px;
+    height: 180px;
+}
+
+.prize-image2 {
+    position: absolute;
+    top: 160px;
+    left: 370px;
+    width: 109px;
+    height: 180px;
+
+}
+
+.prize-image2 img {
+    width: 227px;
+}
+
+.prize-image3 {
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    width: 179px;
+    height: 180px;
+}
+
+.prize-star2 {
+    position: absolute;
+    padding-top: 30px;
+    right: 200px;
+}
+.partners {
+    height: 606px;
+    position: relative;
+    padding-top: 120px;
+}
+.star-brands1{
+    position:absolute;
+    left: 20px;
+}
+.star-brands2{
+    position: absolute;
+    top: 288px;
+    right: 560px;
+  
+    
+}
+.star-brands3{
+    position: absolute;
+    right: 540px;
+    bottom: -60px;
+}
+.partners h6 {
+    color: #FFF;
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px; 
+}
+.partners p{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; 
+}
+.brands-logo {
+    padding-top: 120px;
+    position: relative;
+    left: 190px;
+}
+.logo-image{
+    position: absolute;
+    left: 20px;
+}
+.logo-vertical{
+    width: 2px;
+height: 110.844px;
+background: #D434FE;
+top: 120px;
+left: 195px;
+position: absolute;
+
+}
+.logo-width{
+    width: 159.271px;
+    height: 2px;
+    background: #D434FE;
+    position: absolute;
+    bottom: -20px ;
+    left: 6px;
+}
+
+.logo-vertical1B{
+    width: 2px;
+height: 110.844px;
+background: #D434FE;
+top: 130px;
+left: 417px;
+position: absolute;
+
+
+}
+.logo-width1{
+    width: 159.271px;
+    height: 2px;
+    background: #D434FE;
+    position: absolute;
+    bottom: -20px ;
+    left: 225px;
+
+}
+.logo-image1 img{
+    position: relative;
+    left: 250px;
+    width: 140px;
+    top: 48px;
+}
+.logo-vertical2{
+    width: 2px;
+height: 110.844px;
+background: #D434FE;
+top: 120px;
+right: 425px;
+position: absolute;
+
+}
+.logo-width2{
+    width: 159.271px;
+    height: 2px;
+    background: #D434FE;
+    position: absolute;
+    bottom: -20px ;
+    right: 475px;
+
+}
+.logo-image2 img{
+    position: relative;
+    left: 340px;
+    width: 140px;
+    top: -7px;
+}
+
+.logo-imageA{
+    position: absolute;
+    left: 20px;
+    top: 270px;
+}
+.logo-vertical1{
+    width: 2px;
+height: 110.844px;
+background: #D434FE;
+top: 269px;
+left: 195px;
+position: absolute;
+
+}
+.logo-imageB{
+    position: absolute;
+    left:245px;
+    top: 289px;
+}
+.logo-vertical2{
+    width: 2px;
+height: 110.844px;
+background: #D434FE;
+top: 269px;
+left: 418px;
+position: absolute;
+
+}
+.play{
+    width: 204.368px;
+    height: 20.584px;
+    color: #FFF;
+font-family: 'Typo Hoop Demo';
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px; 
+
+}
+.box{
+width: 204.368px;
+height: 20.584px;
+color: #00A3FF;
+font-family: 'Typo Hoop Demo';
+font-size: 51px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.5px;
+    
+}
+.logo-imageC{
+    position: absolute;
+    left:475px;
+    top: 289px;
+}
+.vuzual{
+    color: #FFF;
+    font-family: Voces;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px; 
+    margin-right: -100px;
+    
+}
+.plus{
+    color: #F00;
+    font-family: 'Volkhov';
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+    margin-left: 100px;
+}
+.design{
+    width: 79px;
+    height: 21px;
+    top: 310px;
+    left: 573px;
+    position: absolute;
+}
+.design h6{
+    color: #FFF;
+    font-family: Voces;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+.design{
+    width: 79px;
+    height: 21px;
+    top: 310px;
+    left: 573px;
+    position: absolute;
+}
+.design h6{
+    color: #FFF;
+    font-family: Voces;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.5px;
+}
+.last-cont{
+    height: 716px;
+    padding-top: 150px;
+    margin-bottom: 220px;
+
+}
+.policy{
+ 
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+.policy h6{
+    color: #FFF;
+font-family: 'Clash Display';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.policy p{
+color: #FFF;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 216.4%;
+}
+.below p{
+margin-top: -20px;
+}
+.at{
+    padding-top: 50px;
+    text-align: justify;
+    padding-left: 0px;
+}
+.list-item{
+    width: 17px;
+height: 17px;
+gap: 10px;
+}
+.list-item img{
+    width: 14px;
+}
+.lock{
+    position:relative;
+    width: 529px;
+height: 311px;
+fill: linear-gradient(180deg, rgba(144, 58, 255, 0.14) 0%, rgba(255, 38, 185, 0.14) 100%);
+padding-right: 10px;
+padding-left: 30px;padding-bottom: 30px;
+}
+.lock1{
+    width: 559px;
+height: 449px;
+    position: absolute;
+    top: 130px;
+    right: -70px;
+}
+.lock1 img{
+    width:420px ;
+}
+.lock img{
+    width:420px ;
+    padding-top: 50px;
+}
+.footer{
+    margin-top: 70px;
+    background-color: #100B20;
+    width: 100%;
+    
+    }
+    .logo2{
+        margin: 20px;
+    
+    }
+    .logo2 h6{
+        color: #FFF;
+    font-family: Clash Display;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .logo2 p{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%;
+    text-align: justify;
+    }
+    .link2{
+    padding: 20px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 172.4%; 
+    }
+    .va{
+        width: 2px;
+      height: 17px;
+      background: #D434FE;
+    }
+    
+    
+    
+    .link3{
+        margin-right: 50px;
+    }
+    
+    .man{
+    
+        width: 717px;
+    height: 717px;
+    flex-shrink: 0;
+    }
+    .man-text{
+    
+        width: 740px;
+        height: 240px;
+        flex-shrink: 0;
+    
+    }
+    .be{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    
+    
+    }
+    .names{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    .form-control{
+        color: rgba(255, 255, 255, 0.25);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .form-label{
+        color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    .btn{
+    
+    height: 53px;
+    border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    }
+    .success{
+        width: 699px;
+    height: 664px;
+
+    border-radius: 5px;
+    border: 1px solid #D434FE;
+    background: rgba(255, 255, 255, 0.01);
+    }
+    
+    
+    .btn a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .cont{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 150px;
+    width: 298px;
+    margin-bottom: 10px;
+    }
+    .cont2{
+        border-radius: 4px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.03);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 298px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    }
+    .sub{
+        border-radius: 4px;
+    background: linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+    width: 172px;
+    height: 53px;
+    flex-shrink: 0;
+    margin-left: 210px;
+    color: #FFF;
+    }
+    .reg2{
+    color: #D434FE;
+    font-family: 'Clash Display';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .acct{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 24px;
+         font-style: normal; 
+         font-weight: 400;
+          line-height: normal;
+    }
+    .review{
+        color: #FF26B9; 
+        font-family: Montserrat; 
+        font-size: 12px; font-style: italic; 
+        font-weight: 400;
+        line-height: normal;
+    }
+    .review2{
+        color: #FFf; 
+        font-family: Montserrat; 
+        font-size: 12px; font-style: italic; 
+        font-weight: 400;
+        line-height: normal;
+    }
+    .need{
+    color: #D434FE;
+      font-family: Clash Display;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal; padding-left: 150px;
+    }
+    .below{
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;padding-left: 150px; padding-top: 30px;
+    }
+    .msg{
+        color: #FFF;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    
+
+
