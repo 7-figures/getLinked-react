@@ -1,30 +1,27 @@
 
-import { BrowserRouter as Router,Link,
-  Route,Routes,Switch} from "react-router-dom";
-import Main from "./Component/Main";
-import Navbar from "./Component/Navbar";
-import Registration from "./Component/Registration";
-import Contact from "./Component/Contact";
-import Footer from "./Component/Footer"
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import Main from "./components/Main";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar";
+import Registration from "./components/Registration";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-    
-     <Routes> 
-   
-          <Route path='/' exact Component={Main} />
-          <Route exact path='/Registration' Component={Registration} />
-          <Route  exact path='/Contact'  Component={Contact}/>
-      
-      
-        </Routes>
-
+      <Navbar/>
      
+        <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/contact" exact element={<Contact />} />
+        </Routes>
         <Footer />
-
-  
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Contact = ()=> {
   return (
     <div>
-         <a href="Index.html"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
+         <Link to="/"><svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
         <circle cx="11.5" cy="11.5" r="11" stroke="url(#paint0_linear_177_298)" />
         <path d="M12.2666 9.20001L9.19995 12.2667L12.2666 14.5667" stroke="white" />
         <defs>
@@ -13,7 +13,7 @@ const Contact = ()=> {
             <stop offset="1" stop-color="#FF26B9" />
           </linearGradient>
         </defs>
-      </svg> </a>
+      </svg> </Link>
     <div className='need'>Questions or need
       assistance?<br/>
       Let us know about it</div>
