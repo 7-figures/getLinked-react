@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar";
 import Registration from "./components/Registration";
+import SuccessPage from "./components/SuccessPage";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/contact" exact element={<Contact />} />
         </Routes>
         <Footer />
+     
     </div>
   );
 }
