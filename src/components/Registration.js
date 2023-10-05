@@ -3,20 +3,27 @@ import axios from 'axios'
 import SuccessPage from './SuccessPage'
 
 const Registration = ()=> {
-  const [inputs, setInputs] = useState({})
+  const url = 'https://backend.getlinked.ai/hackathon/registration'
+  const [inputs, setInputs] = useState({
+    Email: '',
+    Team_name: '',
+    Phone_number: '',
+    Project_topic: '',
+    Group_size: '',
+    Category: '',
+  })
+  
 
-  const updateData = e => {
-      setInputs({
-          ...inputs,
-          [e.target.name]: e.target.value
+  const updateData = (event) => {
+      setInputs({...inputs, [event.target.name]: event.target.value
       })
   }
 
-  const submit = async e => {
-      e.preventDefault()
-       axios.post('https://backend.getlinked.ai/hackathon/registration',{inputs})
-       .then((response )=>{console.log(response)})
-       .catch(err => {console.log(err)})
+  const  submit = async (event) =>{
+      event.preventDefault()
+       axios.post(url,{inputs})
+       .then(response =>console.log(response.data))
+       .catch(error => console.log(error.response))
       console.log(inputs)
   }
   return (
@@ -36,26 +43,26 @@ const Registration = ()=> {
 
       <form className="row d-sm-flex"  onSubmit={submit}>
         <div className="col-sm-4 p-3 g-3">
-          <label for="name2" className="form-label">Team’s Name</label>
-          <input onChange={updateData} type="text" className="form-control" name='name' id="name2 " placeholder="Enter the name of your group"/>
-          <label for="inputEmail" className="form-label">Email</label>
-          <input onChange={updateData} type="email" name='email' className="form-control" id="inputEmail"placeholder="Enter your email address"/>
+        <label for="inputEmail" className="form-label">Email</label>
+          <input onChange={updateData} type="email" name='Email' className="form-control" id="inputEmail"placeholder="Enter your email address"/>
       
+          <label for="name2" className="form-label">Team’s Name</label>
+          <input onChange={updateData} type="text" className="form-control" name='Team_name' id="name2 " placeholder="Enter the name of your group"/>
+          
           <label for="category" className="form-label">Category</label>
-          <select id="Category" className="form-select" name='select'>
-            <option onChange={updateData} selected>Select your category...</option>
+          <select id="Category" className="form-select" name='Category' onChange={updateData}>
+            <option  selected>Select your category...</option>
             <option>Front End</option>
           </select>
         </div>
         <div className="col-sm-4 p-3 g-3">
           <label for="phone" className="form-label">Phone</label>
-          <input onChange={updateData} type="number" name='phone' className="form-control" id="phone" placeholder="Enter your phone number"/>
-          <label for="project" class="form-label">project Topic</label>
-          <input onChange={updateData} type="text" name='topic' className="form-control" id="project" placeholder="What is your group project topic"/>
+          <input onChange={updateData} type="number" name='Phone_number' className="form-control" id="phone" placeholder="Enter your phone number"/>
+          <label for="project" class="form-label">Project Topic</label>
+          <input onChange={updateData} type="text" name='Project_topic' className="form-control" id="project" placeholder="What is your group project topic"/>
          <label for="size" className="form-label">Group Size</label>
-          <select id="size" class="form-select" name='sizes'>
-            <option onChange={updateData}>Select...</option>
-          
+          <select onChange={updateData} id="size" class="form-select" name='Group_size'>
+            <option >Select...</option>
             <option>1-4</option>
             <option>4-7</option>
             <option>7-12</option>
@@ -66,7 +73,7 @@ const Registration = ()=> {
 
         <div className="col-12">
           <div className="form-check">
-            <input onChange={updateData} className="form-check-input" type="checkbox" name='agree' id="gridCheck"/>
+            <input onChange={updateData} className="form-check-input" type="checkbox" name='Privacy_poclicy_accepted' id="gridCheck"/>
             <label className="form-check-label review" for="gridCheck">
               I agreed with the event terms and conditions  and privacy policy
             </label>
